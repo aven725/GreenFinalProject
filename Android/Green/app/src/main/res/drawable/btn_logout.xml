@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+	<item android:state_selected="true">
+		<shape>
+			<gradient android:angle="270" android:endColor="#1EF0F0"
+				android:startColor="#FFFFFF" />
+		    <corners android:radius="0dp" />
+		</shape>
+	</item>
+-->
+	<!-- Button點下瞬間顏色 -->
+	<item android:state_pressed="true">
+		<shape>
+			<solid  android:color="#C0C0C0"/>
+			<stroke android:width="3dip" android:color="#008800"/> 
+			<corners android:radius="5dp" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+		    <!-- Button 背景 -->
+			<solid  android:color="#A9E969"/>
+			<stroke android:width="3dip" android:color="#008800"/> 
+			<corners android:radius="5dp" />
+		</shape>
+	</item>
+</selector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_selected="true">
+		<shape>
+			<gradient android:angle="270" android:endColor="#1EF0F0"
+				android:startColor="#FFFFFF" />
+			<size android:height="60dp" android:width="320dp" />
+		    <corners android:radius="100dp" />
+		</shape>
+	</item>
+	<!-- listview點下瞬間顏色 -->
+	<item android:state_pressed="true">
+		<shape>
+			<solid  android:color="#FFFFFF"/>
+			<size android:height="60dp" android:width="320dp" />
+			<corners android:radius="10dp" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+		    <!-- listview 背景 -->
+			<solid  android:color="#FFFFFF"/>
+			<size android:height="60dp" android:width="320dp" />
+			<corners android:radius="10dp" />
+		</shape>
+	</item>
+</selector>
